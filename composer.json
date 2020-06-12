@@ -1,0 +1,41 @@
+{
+    "name": "water-admin/water-admin-antd",
+    "description": "AntDesign ui for WaterAdmin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Yang",
+            "email": "yangchenshin77@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "water",
+        "admin",
+        "customize",
+        "generator",
+        "ant",
+        "antd",
+        "antdesign"
+    ],
+    "homepage": "https://github.com/water-admin/water-admin",
+    "require": {
+        "water-admin/water-admin": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaterAdmin\\WaterAdminAntd\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WaterAdmin\\WaterAdminAntd\\WaterAntdServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
