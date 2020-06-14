@@ -3,6 +3,7 @@
 namespace WaterAdmin\Antd;
 
 use Illuminate\Support\ServiceProvider;
+use WaterAdmin\Water;
 
 class WaterAntdServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,7 @@ class WaterAntdServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        Water::pluginRoutes(__DIR__.'/../routes/water-antd.php');
     }
 
     /**
