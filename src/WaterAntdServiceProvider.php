@@ -24,6 +24,6 @@ class WaterAntdServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Water::js('js/main.js', 'vendor/water-antd');
     }
 }
