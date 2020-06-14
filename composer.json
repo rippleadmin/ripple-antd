@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "WaterAdmin\\WaterAdminAntd\\": "src"
+            "WaterAdmin\\Antd\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "WaterAdmin\\WaterAdminAntd\\WaterAntdServiceProvider"
+                "WaterAdmin\\Antd\\WaterAntdServiceProvider"
             ]
         }
     },
