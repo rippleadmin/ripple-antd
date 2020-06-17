@@ -10,12 +10,14 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
+        "ant-design-vue": "^1.6.2",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0.1",
+        "less": "^3.11.3",
+        "less-loader": "^6.1.1",
+        "viser-vue": "^2.4.8",
+        "vue": "^2.6.11",
+        "vue-cropper": "^0.5.4",
         "vue-template-compiler": "^2.6.11"
-    },
-    "peerDependencies": {
-        "water-admin-vue": "^0.1",
-        "vue": "^2.6.11"
     }
 }
