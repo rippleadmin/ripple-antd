@@ -1,5 +1,5 @@
 {
-    "name": "water-admin/water-admin-antd",
+    "name": "rippleadmin/ripple-antd",
     "description": "AntDesign ui for WaterAdmin",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "keywords": [
         "laravel",
-        "water",
+        "ripple",
         "admin",
         "customize",
         "generator",
@@ -19,10 +19,8 @@
         "antd",
         "antdesign"
     ],
-    "homepage": "https://github.com/water-admin/water-admin",
-    "require": {
-        "water-admin/water-admin": "^0.1"
-    },
+    "homepage": "https://github.com/rippleadmin/ripple-antd",
+    "require": {},
     "autoload": {
         "psr-4": {
             "WaterAdmin\\Antd\\": "src"

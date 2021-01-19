@@ -52,7 +52,6 @@
 
 <script>
 import UserLayout from '@/Layouts/UserLayout'
-import { timeFix } from '@/Utils/Util'
 
 export default {
   layout: UserLayout,

@@ -39,13 +39,13 @@ mix.setPublicPath('public')
   .version()
 
 // Auto copy assets to test Laravel project
-fs.access('../water-admin-test', error => {
+fs.access('../ripple-test', error => {
   if (!error) {
     mix.then(() => {
       // Run Laravel Mix copy file method
       new (require('laravel-mix/src/tasks/CopyFilesTask'))({
         from: 'public',
-        to: new File('../water-admin-test/public/vendor/water-antd')
+        to: new File('../ripple-test/public/vendor/water-antd')
       }).run()
     })
   }

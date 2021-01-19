@@ -5,7 +5,7 @@ import Viser from 'viser-vue'
 import VueCropper from 'vue-cropper'
 
 Water.pages(name => import(`./Pages/${name}`))
-Water.components(() => require.context('./Components', true, /\.vue$/i))
+Water.components(() => require.context('./Components', true, /\.(vue|js|jsx)$/i))
 
 Water.plugin((Vue, Water) => {
   Vue.use(Antd)

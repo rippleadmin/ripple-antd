@@ -9,15 +9,23 @@
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
-    "devDependencies": {
+    "dependencies": {
+        "@ant-design-vue/pro-layout": "^0.3.4",
+        "@antv/data-set": "^0.11.4",
         "ant-design-vue": "^1.6.3",
+        "axios": "^0.19.2",
+        "lodash.get": "^4.4.2",
+        "viser-vue": "^2.4.8",
+        "vue": "^2.6.11",
+        "vue-cropper": "^0.5.5"
+    },
+    "devDependencies": {
+        "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+        "@vue/babel-preset-jsx": "^1.1.2",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0.4",
         "less": "^3.12.2",
         "less-loader": "^6.2.0",
-        "viser-vue": "^2.4.8",
-        "vue": "^2.6.11",
-        "vue-cropper": "^0.5.5",
         "vue-template-compiler": "^2.6.11"
     }
 }
