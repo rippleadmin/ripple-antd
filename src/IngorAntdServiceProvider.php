@@ -1,11 +1,11 @@
 <?php
 
-namespace WaterAdmin\Antd;
+namespace Ingor\Antd;
 
 use Illuminate\Support\ServiceProvider;
-use WaterAdmin\Water;
+use Ingor\Ingor;
 
-class WaterAntdServiceProvider extends ServiceProvider
+class IngorAntdServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
@@ -14,7 +14,7 @@ class WaterAntdServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        Water::pluginRoutes(__DIR__.'/../routes/water-antd.php');
+        Ingor::pluginRoutes(__DIR__.'/../routes/ingor-antd.php');
     }
 
     /**
@@ -24,6 +24,6 @@ class WaterAntdServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Water::js('js/main.js', 'vendor/water-antd');
+        Ingor::js('js/main.js', 'vendor/ingor-antd');
     }
 }

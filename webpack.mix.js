@@ -5,7 +5,7 @@ mix.setPublicPath('public')
   .js('resources/js/main.js', 'public/js')
   .webpackConfig({
     output: {
-      publicPath: '/vendor/water-antd/',
+      publicPath: '/vendor/ingor-antd/',
       chunkFilename: 'js/[name].js?id=[chunkhash]'
     },
     externals: {
@@ -39,13 +39,13 @@ mix.setPublicPath('public')
   .version()
 
 // Auto copy assets to test Laravel project
-fs.access('../ripple-test', error => {
+fs.access('../ingor-test', error => {
   if (!error) {
     mix.then(() => {
       // Run Laravel Mix copy file method
       new (require('laravel-mix/src/tasks/CopyFilesTask'))({
         from: 'public',
-        to: new File('../ripple-test/public/vendor/water-antd')
+        to: new (require('laravel-mix/src/File'))('../ingor-test/public/vendor/ingor-antd')
       }).run()
     })
   }

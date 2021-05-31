@@ -1,6 +1,6 @@
 {
-    "name": "rippleadmin/ripple-antd",
-    "description": "AntDesign ui for WaterAdmin",
+    "name": "ingor/ingor-antd",
+    "description": "AntDesign UI for Ingor",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
     ],
     "keywords": [
         "laravel",
-        "ripple",
+        "inertia",
+        "ingor",
         "admin",
         "customize",
         "generator",
@@ -19,17 +20,17 @@
         "antd",
         "antdesign"
     ],
-    "homepage": "https://github.com/rippleadmin/ripple-antd",
+    "homepage": "https://github.com/ingorlabs/ingor-antd",
     "require": {},
     "autoload": {
         "psr-4": {
-            "WaterAdmin\\Antd\\": "src"
+            "Ingor\\Antd\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "WaterAdmin\\Antd\\WaterAntdServiceProvider"
+                "Ingor\\Antd\\IngorAntdServiceProvider"
             ]
         }
     },

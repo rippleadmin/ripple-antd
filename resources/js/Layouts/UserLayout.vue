@@ -28,23 +28,23 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Water Admin'
+      default: 'Ingor'
     },
     description: {
       type: String,
-      default: 'Water Admin 管理後台'
+      default: 'Ingor 管理後台'
     },
     image: {
       type: String,
-      default: '/vendor/water-antd/images/logo.svg'
+      default: '/vendor/ingor-antd/images/logo.svg'
     },
     background: {
       type: String,
-      default: '/vendor/water-antd/images/background.svg'
+      default: '/vendor/ingor-antd/images/background.svg'
     },
     copyright: {
       type: String,
-      default: 'Water Admin'
+      default: 'Ingor'
     },
     copyrightYear: {
       type: Number,
